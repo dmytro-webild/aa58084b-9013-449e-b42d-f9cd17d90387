@@ -30,21 +30,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Mainkai Café"
     />
@@ -53,19 +45,14 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Your Cozy Escape by the River ☕"
       description="Experience fresh coffee, artisan breakfast, and a relaxing atmosphere overlooking the Main River in Frankfurt."
       buttons={[
         {
-          text: "View Menu",
-          href: "#menu",
-        },
+          text: "Book Your Table",          href: "#contact"},
         {
-          text: "Reserve a Table",
-          href: "#contact",
-        },
+          text: "View Menu",          href: "#menu"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg?_wi=1"
       imageAlt="elegant cafe riverside frankfurt main river view"
@@ -77,10 +64,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="About Mainkai Café"
       description={[
-        "Mainkai Café & Bistro is a stylish retreat located directly on the banks of the Main River in Frankfurt.",
-        "We offer fresh breakfast, specialty coffee, and handcrafted desserts in an inviting space perfect for friends, work, or leisure.",
-        "With a capacity of up to 40 guests, we are the ideal destination for special occasions, gift vouchers, and memorable riverside moments.",
-      ]}
+        "Mainkai Café & Bistro is a stylish retreat located directly on the banks of the Main River in Frankfurt.",        "We offer fresh breakfast, specialty coffee, and handcrafted desserts in an inviting space perfect for friends, work, or leisure.",        "With a capacity of up to 40 guests, we are the ideal destination for special occasions, gift vouchers, and memorable riverside moments."]}
     />
   </div>
 
@@ -90,29 +74,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          tag: "Location",
-          title: "Riverside View",
-          subtitle: "Best in town",
-          description: "Unmatched views of the Main river while you sip your coffee.",
-          imageSrc: "http://img.b2bpic.net/free-photo/elegant-table-with-drinks_1122-458.jpg",
-          imageAlt: "cafe interior detail rustic warm atmosphere",
-        },
+          tag: "Location",          title: "Riverside View",          subtitle: "Best in town",          description: "Unmatched views of the Main river while you sip your coffee.",          imageSrc: "http://img.b2bpic.net/free-photo/elegant-table-with-drinks_1122-458.jpg",          imageAlt: "cafe interior detail rustic warm atmosphere"},
         {
-          tag: "Quality",
-          title: "Fresh Ingredients",
-          subtitle: "From local sources",
-          description: "Every dish is prepared fresh daily with quality local produce.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg?_wi=2",
-          imageAlt: "cafe interior detail rustic warm atmosphere",
-        },
+          tag: "Quality",          title: "Fresh Ingredients",          subtitle: "From local sources",          description: "Every dish is prepared fresh daily with quality local produce.",          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg?_wi=2",          imageAlt: "cafe interior detail rustic warm atmosphere"},
         {
-          tag: "Dietary",
-          title: "Inclusive Menu",
-          subtitle: "Vegan & GF friendly",
-          description: "Vegetarian, vegan, and gluten-free options are always available.",
-          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=1",
-          imageAlt: "cafe interior detail rustic warm atmosphere",
-        },
+          tag: "Dietary",          title: "Inclusive Menu",          subtitle: "Vegan & GF friendly",          description: "Vegetarian, vegan, and gluten-free options are always available.",          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=1",          imageAlt: "cafe interior detail rustic warm atmosphere"},
       ]}
       title="Why Visit Mainkai?"
       description="We take pride in our riverside location and fresh, high-quality ingredients."
@@ -127,47 +93,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "1",
-          name: "Espresso",
-          price: "2.90€",
-          variant: "Hot Drink",
-          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=2",
-        },
+          id: "1",          name: "Espresso",          price: "2.90€",          variant: "Hot Drink",          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=2"},
         {
-          id: "2",
-          name: "Cappuccino",
-          price: "3.80€",
-          variant: "Hot Drink",
-          imageSrc: "http://img.b2bpic.net/free-photo/hot-latte-art-coffee-table-filtered-image-processed-vintage_1232-2210.jpg",
-        },
+          id: "2",          name: "Cappuccino",          price: "3.80€",          variant: "Hot Drink",          imageSrc: "http://img.b2bpic.net/free-photo/hot-latte-art-coffee-table-filtered-image-processed-vintage_1232-2210.jpg"},
         {
-          id: "3",
-          name: "Earl Grey Tea",
-          price: "3.50€",
-          variant: "Tea",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-recipe-book-still-life-concept_23-2149056054.jpg",
-        },
+          id: "3",          name: "Earl Grey Tea",          price: "3.50€",          variant: "Tea",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-recipe-book-still-life-concept_23-2149056054.jpg"},
         {
-          id: "4",
-          name: "Fresh Croissant",
-          price: "2.50€",
-          variant: "Breakfast",
-          imageSrc: "http://img.b2bpic.net/free-photo/coffee-baked-cookies-with-citrus-fruit_23-2147956819.jpg",
-        },
+          id: "4",          name: "Fresh Croissant",          price: "2.50€",          variant: "Breakfast",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-baked-cookies-with-citrus-fruit_23-2147956819.jpg"},
         {
-          id: "5",
-          name: "Avocado Toast",
-          price: "9.50€",
-          variant: "Breakfast",
-          imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-person-making-drip-coffee_53876-30607.jpg",
-        },
+          id: "5",          name: "Avocado Toast",          price: "9.50€",          variant: "Breakfast",          imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-person-making-drip-coffee_53876-30607.jpg"},
         {
-          id: "6",
-          name: "Vegan Breakfast Bowl",
-          price: "11.90€",
-          variant: "Breakfast",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-dessert-plate_23-2151971372.jpg",
-        },
+          id: "6",          name: "Vegan Breakfast Bowl",          price: "11.90€",          variant: "Breakfast",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-dessert-plate_23-2151971372.jpg"},
       ]}
       title="Our Menu"
       description="Handcrafted coffee, fine teas, and fresh breakfast items."
@@ -179,9 +115,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Mainkai Atmosphere"
       description={[
-        "Captured moments from our bistro.",
-        "Enjoy the cozy indoor seating or the refreshing riverside ambiance of our café.",
-      ]}
+        "Captured moments from our bistro.",        "Enjoy the cozy indoor seating or the refreshing riverside ambiance of our café."]}
     />
   </div>
 
@@ -193,25 +127,15 @@ export default function LandingPage() {
       author="Sarah Miller"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-smiling-asian-woman-apron-barista-giving-you-cup-coffee-working-cafe-serving_1258-199256.jpg",
-          alt: "Sarah",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-smiling-asian-woman-apron-barista-giving-you-cup-coffee-working-cafe-serving_1258-199256.jpg",          alt: "Sarah"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-with-disposable-coffee-cup_107420-12311.jpg",
-          alt: "Mark",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-with-disposable-coffee-cup_107420-12311.jpg",          alt: "Mark"},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-lifestyle-portrait-happy-carefree-black-woman-enjoying-coffee-break-paris_273443-1396.jpg",
-          alt: "Elena",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-lifestyle-portrait-happy-carefree-black-woman-enjoying-coffee-break-paris_273443-1396.jpg",          alt: "Elena"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-counter_1170-668.jpg",
-          alt: "Tom",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-waitress-standing-counter_1170-668.jpg",          alt: "Tom"},
         {
-          src: "http://img.b2bpic.net/free-photo/smiley-beautiful-woman-enjoying-coffee_23-2148317286.jpg",
-          alt: "Sophie",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiley-beautiful-woman-enjoying-coffee_23-2148317286.jpg",          alt: "Sophie"},
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -222,8 +146,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Reservations"
       title="Book Your Table"
       description="Planning a visit? Send us a reservation request or contact us for group bookings."
@@ -236,38 +159,25 @@ export default function LandingPage() {
       logoText="Mainkai Café"
       columns={[
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "Mainkai 15, Frankfurt",
-              href: "#",
-            },
+              label: "Mainkai 15, Frankfurt",              href: "#"},
             {
-              label: "+49 69 260 975 65",
-              href: "tel:+496926097565",
-            },
+              label: "+49 69 260 975 65",              href: "tel:+496926097565"},
             {
-              label: "kontakt@mainkaicafe.de",
-              href: "mailto:kontakt@mainkaicafe.de",
-            },
+              label: "kontakt@mainkaicafe.de",              href: "mailto:kontakt@mainkaicafe.de"},
           ],
         },
         {
-          title: "Hours",
-          items: [
+          title: "Hours",          items: [
             {
-              label: "Mon – Sun: 09:00 – 21:00",
-              href: "#",
-            },
+              label: "Mon – Sun: 09:00 – 21:00",              href: "#"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "Instagram",
-              href: "https://www.instagram.com/mainkaicafe",
-            },
+              label: "Instagram",              href: "https://www.instagram.com/mainkaicafe"},
           ],
         },
       ]}
