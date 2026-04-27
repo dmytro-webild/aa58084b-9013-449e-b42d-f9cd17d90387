@@ -67,7 +67,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg?_wi=1"
       imageAlt="elegant cafe riverside frankfurt main river view"
     />
   </div>
@@ -102,7 +102,7 @@ export default function LandingPage() {
           title: "Fresh Ingredients",
           subtitle: "From local sources",
           description: "Every dish is prepared fresh daily with quality local produce.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-drinking-tea-cafe_1303-25721.jpg?_wi=2",
           imageAlt: "cafe interior detail rustic warm atmosphere",
         },
         {
@@ -110,7 +110,7 @@ export default function LandingPage() {
           title: "Inclusive Menu",
           subtitle: "Vegan & GF friendly",
           description: "Vegetarian, vegan, and gluten-free options are always available.",
-          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=1",
           imageAlt: "cafe interior detail rustic warm atmosphere",
         },
       ]}
@@ -131,7 +131,7 @@ export default function LandingPage() {
           name: "Espresso",
           price: "2.90€",
           variant: "Hot Drink",
-          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/baked-two-eggs-with-ham-cheese-round-bowl-two-pieces-brown-healthy-bread-side_343596-1548.jpg?_wi=2",
         },
         {
           id: "2",
