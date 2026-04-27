@@ -149,7 +149,7 @@ export default function LandingPage() {
         variant: "plain"}}
       tag="Reservations"
       title="Book Your Table"
-      description="Planning a visit? Send us a reservation request or contact us for group bookings."
+      description="Planning a visit? Send us a reservation request or contact us for group bookings. Please include your desired date, time, and number of guests for faster processing."
     />
   </div>
 
